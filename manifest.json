@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Cursor Agent Capture",
-  "version": "2.0.0",
+  "version": "4.2.0",
   "description": "Click icon on any cursor.com/agents page. JSON downloads instantly.",
   "permissions": ["activeTab", "scripting"],
   "action": {

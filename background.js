@@ -5,7 +5,6 @@ chrome.action.onClicked.addListener(async (tab) => {
     setTimeout(() => chrome.action.setBadgeText({ text: '', tabId: tab.id }), 2000);
     return;
   }
-
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
     files: ['scraper.js']
